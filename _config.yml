@@ -3,8 +3,7 @@ title: Valantis Kamayiannis
 email: kamayiannis@yahoo.com
 description: > # this means to ignore newlines until "baseurl:"
   Software engineer, web enthusiast, drummer and proud father of one. 
-  ...And this is my first attempt to create my personal space, using
-  Ruby and Jekyll.
+  I will try to give ideas, tips, thoughts, anything that might matter to anyone.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: vkamayiannis
