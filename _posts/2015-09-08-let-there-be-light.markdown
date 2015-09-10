@@ -3,6 +3,7 @@ layout: post
 title:  "Let there be light!"
 date:   2015-09-08 23:34:26
 categories: jekyll update
+comments: true
 ---
 So this is my first ever post, using Jekyll. But let me start over.
 
