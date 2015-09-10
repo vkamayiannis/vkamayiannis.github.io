@@ -235,16 +235,18 @@
     }
 }
 
-.circular {
-	}
-
-.circular img {
+.headertitle .circular {
   border-radius: 50%;
 	margin-top: 10px;
   margin-left: 10px;
   float: 'left';
 	}
 
-.sitetitle {
+.headertitle{
+  overflow: auto;
+}
+	
+
+.headertitle .sitetitle {
   float: 'right';
 }
