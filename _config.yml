@@ -13,5 +13,5 @@ github_username:  vkamayiannis
 markdown: kramdown
 pages_list:       
   About: '/about'
-  Archive: '/archive'
+  Archive: '/archives'
   Feed: '/feed.xml'
