@@ -1,4 +1,2 @@
 1. Find proper site name
 2. Change pagination display (probably add arrows or something)
-3. Find a proper background pic
-4. Write the about page
