@@ -1,0 +1,104 @@
+---
+layout: post
+title:  "Why Ruby?"
+date:   2015-09-14 16:14:00
+categories: category
+comments: true
+---
+So what's so special about Ruby, and all of a sudden everybody's talking about that?
+Let me start off, with "Why Ruby" from my poing of view. 
+
+<h3>First, a little history.</h3>
+I've started learning how to program, in an english language school here in Greece, 
+at the age of 9 or 10, if I remember correctly. The first programming language I've ever seen there
+was [GW-Basic][gwbasic] and I was astonished about the things I could do to a computer.
+I mean, I was a 9 or 10 year old boy, and I could make a computer write my name. It was pretty awesome.
+I remember I spent nights over nights to write things in there so I can see them run. And then I bragged 
+to everybody (even if they didn't care) that this thing in there it was I who has made it happen.
+
+After all that I've taken the next step and (through the same english language school) I've worked 
+with [Turbo Pascal][turbopascal]. Of course at that time, since I started to discover all the new things 
+this gave me, I wanted to scream from happiness. After that C++ came, Java, Prolog, SML, Sybase Powerbuilder 
+and Delphi came into my life.
+
+I started quite some time ago, to want to learn something new, to escape from the development environment
+I use in my everyday job. Then a really good friend of mine, suggested Ruby. To tell the truth in the beginning
+I've started immediately working with Rails, but for a programmer that was the very first time
+that worked with [MVC][mvc] it was really out of the box.
+
+A couple of years later I got my hands on the book "[Sever Languages in Seven Weeks][7l7w]" that started with Ruby.
+That was it. I was brought back 25 years in time, like that little 9 or 10 year old kid that was amazed by programming.
+
+<h3>Seriously, why Ruby?</h3>
+So, what's so special about Ruby? More or less in every other blog you'll find the following:
+
+<h4>1. Everything in Ruby is an object!</h4>
+Yeap. Consider that. Everything in Ruby IS an object. Let's see a demonstration:
+
+{% highlight ruby %}
+irb(main):001:0> 1.class
+=> Fixnum
+irb(main):003:0> 1.0.class
+=> Float
+irb(main):002:0> "One".class
+=> String
+irb(main):002:0> nil.class
+=> NilClass
+irb(main):009:0> :one.class
+=> Symbol
+{% endhighlight %}
+
+Yeap even nil is an instance of the NilClass!!! (too many "yeaps" in there)
+
+<h4>2. Ruby is dynamically typed</h4>
+You can actually do the following:
+{% highlight ruby %}
+irb(main):001:0> x = 1
+=> 1
+irb(main):002:0> x = "one"
+=> "one"
+irb(main):007:0> x = [1, 2, "three"]
+=> [1, 2, "three"]
+{% endhighlight %}
+
+End of story :)
+
+<h4>3. Elegant syntax</h4>
+This was the best thing I loved about Ruby. The syntax that Ruby allows you to use, is really simple
+and quite understandable, in many cases even from people that know nothing about programming.
+From one line conditional statements
+{% highlight ruby %}
+puts x if x == 1
+{% endhighlight %}
+
+to multiple assignment
+{% highlight ruby %}
+a, b, c = 1, 2, 3
+{% endhighlight %}
+
+and to optional return statements (last statement value is returned by default)
+{% highlight ruby %}
+def func(x)
+  x = x * 2
+end
+{% endhighlight %}
+
+Ruby is easy to write, read and learn.
+
+<h4>4. The community</h4>
+The last, but certainly not least, important thing is the community that exists in the Ruby universe.
+From [Stackoverflow][stackoverflow] to [GitHub][github] and to [Ruby meetup groups][thessrb] 
+there is a pretty large community to help find and solve pretty much every problem (ok it's a little too much but you got the point).
+
+
+<h2>Personal note</h2>
+As you undestood I'm pretty much a Ruby-newbie here. Feel free to add your remarks in the comment area
+for any, and possible, error I might have done here.
+
+[gwbasic]: https://en.wikipedia.org/wiki/GW-BASIC
+[turbopascal]: https://en.wikipedia.org/wiki/Turbo_Pascal
+[mvc]: https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+[7l7w]: https://pragprog.com/book/btlang/seven-languages-in-seven-weeks
+[stackoverflow]: http://stackoverflow.com/
+[github]: https://github.com/
+[thessrb]: http://thessrb.io/
