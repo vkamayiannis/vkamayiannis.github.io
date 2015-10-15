@@ -12,7 +12,7 @@ github_username:  vkamayiannis
 gravatar_id: 295444c667fe78caffe72b403348e1a7
 linkedin_username: valantis-kamayiannis
 linkedin_name: Valantis Kamayiannis
-paginate: 5
+paginate: 2
 paginate_path: "/page:num/"
 
 # Build settings
