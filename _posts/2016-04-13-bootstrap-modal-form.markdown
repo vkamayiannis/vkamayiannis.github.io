@@ -32,8 +32,25 @@ Then our first model. We need to create a model Task with a title, a summary and
 
 {% highlight powershell %}
 rails g scaffold Task title:string summary:text due_date:date
+rake db:migrate
 {% endhighlight %}
 
+So we've generated the model, the controller and the views (scaffolding) and also we ran the migration on the database.
+So let's run the server in order to create a couple of tasks just to make our changes for bootstrap.
+
+Before we make any other change we must first enable our application to use Bootstrap. First in out app/assets/javascripts/application.js file
+{% highlight ruby %}
+//= require bootstrap-sprockets
+{% endhighlight %}
+we need to add this line before the require_tree.
+
+After that on app/assets/stylesheets/application.css we need to first rename the file to have the scss extension 
+and then add the following at the end of the file:
+
+{% highlight ruby %}
+@import "bootstrap-sprockets";
+@import "bootstrap";
+{% endhighlight %}
 
 
 [koding]:      http://koding.com
