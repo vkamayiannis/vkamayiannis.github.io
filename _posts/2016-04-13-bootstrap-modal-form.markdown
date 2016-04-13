@@ -26,5 +26,14 @@ add the gems to enable Bootstrap support. Add the following in the end of your G
 gem 'coffee-script-source', '1.8.0'
 {% endhighlight %}
 
+Then run bundle install and the bootstrap gem will be installed. 
+
+Then our first model. We need to create a model Task with a title, a summary and a due date
+
+{% highlight powershell %}
+rails g scaffold Task title:string summary:text due_date:date
+{% endhighlight %}
+
+
 
 [koding]:      http://koding.com
