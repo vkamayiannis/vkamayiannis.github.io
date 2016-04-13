@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Bootstrap modal form"
+date:   2016-04-13 23:34:26
+categories: jekyll update
+comments: true
+---
+I started creating again some simple applications in Rails so I tried do enhance things a bit with some Bootstrap 
+modal forms. But since I'm not a Javascript/jQuery/I_don't_know_what_else guy, I tried to find resources in order to
+understand and implement something like that. Since it was really hard to find some solutions, I came up to the idea to
+create this post in order to have something as a future reference (together with a demo app in Github).
+
+<h3>The concept</h3>
+The concept was to create a task list (yeah I know, such an original idea). I wanted to have the ability to create a
+new task or see the contents of a task using modal forms. Anyways, enough with the talking. 
+
+First, we need to create a new Rails app. So
+{% highlight powershell %}
+rails new app modal-form-demo
+{% endhighlight %}
+
+At this point we've created our new application. Before we bundle install it, we can change the Gemfile in order to 
+add the gems to enable Bootstrap support. Add the following in the end of your Gemfile
+
+{% highlight ruby %}
+gem 'coffee-script-source', '1.8.0'
+{% endhighlight %}
+
+
+[koding]:      http://koding.com
