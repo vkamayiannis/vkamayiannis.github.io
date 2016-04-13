@@ -52,5 +52,7 @@ and then add the following at the end of the file:
 @import "bootstrap";
 {% endhighlight %}
 
+So let's go to the index page of our tasks and just change the class of the 
+
 
 [koding]:      http://koding.com
